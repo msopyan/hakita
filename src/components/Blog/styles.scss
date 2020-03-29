@@ -1,0 +1,56 @@
+.Blog__column {
+  display: flex;
+  align-items: stretch;
+}
+
+.Blog__card {
+  display: flex;
+  // Stretch to fit column width
+  width: 100%;
+  // Ensure .card-content stretches to fit width
+  align-items: stretch;
+}
+
+.Blog__card-content {
+  // Flex so that button can position self at
+  // bottom of card using margin-top auto.
+  display: flex;
+  flex-direction: column;
+  // Stretch to fit column width
+  width: 100%;
+  padding: 2rem;
+}
+
+.Blog__period {
+  font-size: 1.25rem;
+}
+
+.Blog__title {
+  margin: 20px 0;
+}
+
+.Blog__title-symbol {
+  opacity: 0.4;
+}
+
+.Blog__title-month {
+  opacity: 0.4;
+}
+
+.Blog__description {
+  padding-bottom: 40px;
+}
+
+.Blog__item {
+  padding: 56px;
+}
+
+.Blog__image {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  max-width: 100px;
+}
+
+.Blog__button {
+  margin-top: auto;
+}
