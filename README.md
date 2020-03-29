@@ -37,9 +37,6 @@ Berikut adalah daftar folder penting yang dibutuhkan dalam membangun website ini
 
 Berikut adalah langkah yang dibutuhkan untuk melakukan instalasi dan menjalankan _Development Server_ repository ini. (Instalasi dianggap memakai CLI atau _Command Line Interface_)
 
-**Sebelum memulai, pastikan anda telah membuat file ```.env``` di _root_ repository ini, dengan isi sebagai berikut:** 
-
-
 ```bash
 NODE_PATH=.
 
